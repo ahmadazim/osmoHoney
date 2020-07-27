@@ -1,0 +1,7 @@
+"0","honeyGlu.d1.zeros <- read.csv(""Data/honeyGlucoseCd1zeros.csv"") # Adding lethals"
+"0","library(""Hmisc"")"
+"0",""
+"0","#tiff(""./Final\ Figures/Fig.1.300.tiff"", units = ""in"", width = 8, height = 5, res = 300)"
+"0","par(mar = c(5,5,2,2))"
+"0","Mconc <- honeyGlu.d1.zeros[honeyGlu.d1.zeros$Trt == ""Manuka"",] "
+"0","plot(Mconc$Conc, Mconc$OD, ylim = c(-0.1,2), xaxt = ""n"", xlim = c(50, 270), pch=16, cex = 1.5, col= ""dark orange"", ylab = expression(""Bacterial Growth (OD ""[600]*"")""), xlab = ""Concentration in LB (mg/mL)"")"

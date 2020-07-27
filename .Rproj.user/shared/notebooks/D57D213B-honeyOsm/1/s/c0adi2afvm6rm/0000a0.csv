@@ -1,0 +1,2 @@
+"0","L.lethal2.trend <- lm(OD ~ Culture, data = L.lethal2)"
+"0","lines(L.lethal2$Culture, predict(L.lethal2.trend), lwd=2, lty = 2, col =""blue"")"

@@ -1,0 +1,2 @@
+"0","glu6.trend <- lm(OD ~ Culture, data = glu6)"
+"0","lines(glu6$Culture, predict(glu6.trend), lwd=3, lty = 3, col =""navyblue"")"

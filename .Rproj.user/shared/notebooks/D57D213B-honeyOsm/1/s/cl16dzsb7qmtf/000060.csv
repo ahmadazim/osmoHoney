@@ -1,0 +1,2 @@
+"0","L140.avg <- tapply(L140$OD, L140$Culture, mean)"
+"0","lines(c(1:5), L140.avg, lwd=2, lty=2, col = ""darkgreen"")"

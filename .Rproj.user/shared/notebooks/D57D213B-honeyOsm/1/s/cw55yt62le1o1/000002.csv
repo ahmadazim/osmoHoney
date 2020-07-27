@@ -1,0 +1,7 @@
+"0","OsmVsMgperml$predicted.osm <- 430.46878 + 4.41526 * OsmVsMgperml$mgperml"
+"0","predict.osm <- function(x) {430.46878 + 4.41526 * x}"
+"0","honeyGlu.d5$predicted.osm <- 0"
+"0","honeyGlu.d5[honeyGlu.d5$Conc >16 ,""predicted.osm""] <- predict.osm(honeyGlu.d5[honeyGlu.d5$Conc >16 ,""Conc""])"
+"0","honeyGlu.d5[honeyGlu.d5$Conc ==16 ,""predicted.osm""] <- 1494.5997"
+"0","honeyGlu.d5[honeyGlu.d5$Conc ==6 ,""predicted.osm""] <- 802"
+"0","honeyGlu.d5[honeyGlu.d5$Conc ==0 ,""predicted.osm""] <- 420"

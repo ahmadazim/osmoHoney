@@ -1,0 +1,2 @@
+"0","lm.control.ttrend <- lm(OD ~ Culture, data = control.ttrend)"
+"0","lines(control.ttrend$Culture, predict(lm.control.ttrend), lwd=3, lty = 3, col = ""black"")"

@@ -1,0 +1,2 @@
+"0","L160.avg <- tapply(L160$OD, L160$Culture, mean)"
+"0","lines(c(1:5), L160.avg, lwd=2, lty=2, col = ""lightseagreen"")"

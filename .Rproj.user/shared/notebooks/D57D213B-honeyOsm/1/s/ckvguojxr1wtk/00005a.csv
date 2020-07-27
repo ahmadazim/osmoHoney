@@ -1,0 +1,7 @@
+"0",""
+"0","# Using linear model instead of avg"
+"0","# lm.Mconc <- lm(OD ~ Conc, data = Mconc)"
+"0","# lines(Mconc$Conc, predict(lm.Mconc), type='l', col=""dark orange"", lwd = 3, lty = 3)"
+"0",""
+"0","Lconc <- honeyGlu.d1.zeros[honeyGlu.d1.zeros$Trt == ""Local"",] "
+"0","points(Lconc$Conc, Lconc$OD, pch=16, cex = 1.5, col= ""dark green"")"

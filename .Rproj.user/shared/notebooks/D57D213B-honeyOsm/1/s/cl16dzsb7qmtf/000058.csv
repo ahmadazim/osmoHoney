@@ -1,0 +1,2 @@
+"0","L210.trend <- lm(OD ~ Culture, data = L210)"
+"0","lines(L210$Culture, predict(L210.trend), lwd=2, lty = 2, col =""khaki"")"

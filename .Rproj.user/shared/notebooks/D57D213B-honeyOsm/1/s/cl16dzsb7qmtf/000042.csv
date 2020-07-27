@@ -1,0 +1,2 @@
+"0","M60.trend <- lm(OD ~ Culture, data = M60)"
+"0","lines(M60$Culture, predict(M60.trend), lwd=2, lty=2, col = ""firebrick2"")"

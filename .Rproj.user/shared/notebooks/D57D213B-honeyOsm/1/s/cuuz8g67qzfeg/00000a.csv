@@ -1,0 +1,3 @@
+"0",""
+"0","control.ttrend <- honeyGlu.d5.no.48[honeyGlu.d5.no.48$Trt == ""Control"",]"
+"0","points(control.ttrend$Culture, control.ttrend$OD, pch=16, col = ""black"", cex=2)"

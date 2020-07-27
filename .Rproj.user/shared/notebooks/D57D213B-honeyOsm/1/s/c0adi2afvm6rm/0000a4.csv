@@ -1,0 +1,2 @@
+"0","L.sublethal2.avg <- tapply(L.sublethal2$OD, L.sublethal2$Culture, mean)"
+"0","lines(c(1:5), L.sublethal2.avg, lwd=2, lty=2, col = ""green"")"

@@ -1,0 +1,2 @@
+"0","lm.Lconc <- lm(OD ~ Conc, data = Lconc)"
+"0","lines(Lconc$Conc, predict(lm.Lconc), type='l', col= ""dark green"", lwd = 2, lty = 2)"

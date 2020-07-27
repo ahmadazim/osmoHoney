@@ -1,0 +1,2 @@
+"0","honeyGlu.d1 <- read.csv(""Data/honeyGlucoseCd1.csv"", header = T)"
+"0","honeyGlu.d5 <- read.csv(""Data/honeyGlucosetoCd5.csv"", header = T)"

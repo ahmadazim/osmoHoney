@@ -1,0 +1,3 @@
+"0",""
+"0","avgControl.d1 <- mean(honeyGlu.d1.zeros[honeyGlu.d1.zeros$Trt == ""Control"", ""OD""]) "
+"0","lines(seq(40, 270, 10), rep(avgControl.d1, 24), type='l', col= ""black"", lwd = 2, lty = 2)"

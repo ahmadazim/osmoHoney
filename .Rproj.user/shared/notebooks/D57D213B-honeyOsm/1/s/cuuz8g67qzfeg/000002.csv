@@ -1,0 +1,5 @@
+"0","glu.ttrend <- honeyGlu.d5[honeyGlu.d5$Trt == ""Glu"",]"
+"0","glu6 <- glu.ttrend[glu.ttrend$Conc == 6,]"
+"0","glu16 <- glu.ttrend[glu.ttrend$Conc == 16,]"
+"0",""
+"0","plot(glu6$Culture, glu6$OD, ylim=c(-0.1,2), xlim = c(1,5), pch=16, col = ""navyblue"",cex = 2, ylab = ""Bacterial Growth (Optical Density)"", xlab = ""Culture Day"")"

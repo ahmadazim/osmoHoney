@@ -1,0 +1,5 @@
+"0",""
+"0","glu.lm <- lm(OD ~ Conc, data = honeyGlu.d1.zeros[honeyGlu.d1.zeros$Trt == ""Glu"",])"
+"0","avgGlu6.d1 <- mean(honeyGlu.d1.zeros[honeyGlu.d1.zeros$StrCon == ""Glu6"", ""OD""])"
+"0","avgGlu16.d1 <- mean(honeyGlu.d1.zeros[honeyGlu.d1.zeros$StrCon == ""Glu16"", ""OD""])"
+"0","points(10*(4.5:27), predict(glu.lm, newdata = data.frame(Conc = 4.5:27)), type='l', col= ""blue"", lwd = 3, lty = 1)"

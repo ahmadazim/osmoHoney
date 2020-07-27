@@ -1,0 +1,3 @@
+"0",""
+"0","legend(4,.7, pch = 16, col = c(""black"", ""darkorange4"",""darkorange"", ""firebrick2"", ""goldenrod2""), "
+"0","       legend=c(""LB Control"", ""80 mg/mL"", ""70 mg/mL"", ""60 mg/mL"", ""50 mg/mL""), cex = 1, pt.cex = 1.5)"

@@ -1,0 +1,3 @@
+"0",""
+"0","Mconc.line <- tapply(Mconc$OD, Mconc$Conc, mean)"
+"0","lines(as.numeric(names(Mconc.line)), Mconc.line, type='l', col=""dark orange"", lwd = 2, lty = 2)"
