@@ -1,9 +1,11 @@
 ---
-title: "Determining the Contribution of Osmotic Stress to the Antibacterial Properties
-  of Honey"
-author: Ahmad Abdel-Azim
+title: Determining the Contribution of Osmotic Stress to the Antibacterial Properties
+  of Honey
+author: "Ahmad Abdel-Azim"
 date: "3/29/2019"
-output: html_notebook
+output:
+  pdf_document: default
+  html_notebook: default
 ---
 
 Date Started: 3/19/2018  
